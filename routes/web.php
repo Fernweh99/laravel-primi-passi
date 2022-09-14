@@ -17,3 +17,8 @@ Route::get('/', function () {
     $data = ['name' => 'Daniele', 'surname' => 'Di Mento'];
     return view('home', $data);
 });
+
+Route::get('/info', function () {
+    $data = ['job' => 'Web Developer', 'interests' => ['Games','Cinema','Comics']];
+    return view('info', $data);
+});

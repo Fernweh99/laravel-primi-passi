@@ -10,5 +10,7 @@
   <h1>HELLO WORLD!</h1>
   <h3>My name is {{$name}} {{$surname}}</h3>
   <p><strong>Nice to meet u!</strong></p>
+  <br>
+  <a href="{{url('info')}}">look my info</a>
 </body>
 </html>
