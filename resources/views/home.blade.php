@@ -8,5 +8,7 @@
 </head>
 <body>
   <h1>HELLO WORLD!</h1>
+  <h3>My name is {{$name}} {{$surname}}</h3>
+  <p><strong>Nice to meet u!</strong></p>
 </body>
 </html>
